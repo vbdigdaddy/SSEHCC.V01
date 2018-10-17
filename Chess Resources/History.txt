@@ -1,8 +1,11 @@
+=======================================================================================
+Version History
+=======================================================================================
 
-This header file contains the following sections:
-	* Outstanding Problems
-	* Possible Improvements / Features
-	* the history of update by version (latest changes first)
+SSEHCC v01.181017.001
+  *  Add GIT SSEHCC.V01 responsitory
+  *  put all Chess Resources under SSEHCC folder
+
 
 =======================================================================================
 Outstanding Problems
@@ -16,15 +19,17 @@ Outstanding Problems
 =======================================================================================
 Possible Improvements / Features
 =======================================================================================
- 
-    o Use standard Microsoft Visual Studio Test Project for basic testing
 
 	o BitBoards - Research better use of bitboard, specifically:
         - move generation
         - board evaluation
+		- use of magic square in move generation
 
     o Board Evaluation
         - Research & Incorporate "distance" calcuations
+		- Enhance open game, middle game, end game bias(s)
+
+	o Isolate 'perft' routines into it own class
 
 	o incrementally reformat to use CLASS structure for following:
         - search
@@ -36,18 +41,7 @@ Possible Improvements / Features
         - misc
 
 	o Fix/Improve 'threads'
-        - performance not better than single processor
-        - "pv" string not being displayed correctly ?? (see "perft testmate 5" output)
-        - testmate 5 fails for line#85
+        - Still some problems when threshhold depth < 9 
+		- I assume some issue with alpha override?
 
 	o add "end game" tablebase(s) (big effort here)
-
-
-=======================================================================================
-Version History
-=======================================================================================
-
-SSEHCC v01.160912.001 
-=====================
-  * fixed problem with "long" ET on bestmove and very short on TestMate
-  * this version is now the "BASE" version for all future updates
