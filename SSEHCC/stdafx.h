@@ -109,10 +109,11 @@ class C_BOARD;
 #define HASH ( CS_HASHTABLE ::getInstance() )
 
 #define MYPROJECTBASE       "C:/Users/Jim/Documents/My Projects"
-#define BOOKFILENAME        (MYPROJECTBASE "/Chess BookBases/Maverick.bin")
-
-#define EPDTESTS(name)      (MYPROJECTBASE "/Chess Resources/EPD Tests/" name)
-#define EPDTESTS2(name)     (MYPROJECTBASE "/Chess Resources/EPD Tests/epd_testsuites/" name)
+#define CHESSPATH           MYPROJECTBASE "/VisualStudioProjects/SSEHCC"
+#define CHESSRESOURCESPATH  CHESSPATH "/Chess Resources"
+#define BOOKFILENAME        (CHESSRESOURCESPATH "/Chess BookBases/Maverick.bin")
+#define EPDTESTS(name)      (CHESSRESOURCESPATH "/EPD Tests/" name)
+#define EPDTESTS2(name)     (CHESSRESOURCESPATH "/EPD Tests/epd_testsuites/" name)
 
 #define EVALTESTSFILENAME   EPDTESTS("evaltests.epd")  // mirror tests
 #define MOVETESTSFILENAME   EPDTESTS2("perftsuite.epd")

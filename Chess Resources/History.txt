@@ -1,0 +1,53 @@
+
+This header file contains the following sections:
+	* Outstanding Problems
+	* Possible Improvements / Features
+	* the history of update by version (latest changes first)
+
+=======================================================================================
+Outstanding Problems
+=======================================================================================
+
+	o Need to verify "bliz" time is working correctly
+    o Threads (see Possible Improvements below)
+    o use bitboard to generation sliding pieces move generation
+
+
+=======================================================================================
+Possible Improvements / Features
+=======================================================================================
+ 
+    o Use standard Microsoft Visual Studio Test Project for basic testing
+
+	o BitBoards - Research better use of bitboard, specifically:
+        - move generation
+        - board evaluation
+
+    o Board Evaluation
+        - Research & Incorporate "distance" calcuations
+
+	o incrementally reformat to use CLASS structure for following:
+        - search
+        - data
+        - init
+        - io
+        - ioconsole
+        - iouce
+        - misc
+
+	o Fix/Improve 'threads'
+        - performance not better than single processor
+        - "pv" string not being displayed correctly ?? (see "perft testmate 5" output)
+        - testmate 5 fails for line#85
+
+	o add "end game" tablebase(s) (big effort here)
+
+
+=======================================================================================
+Version History
+=======================================================================================
+
+SSEHCC v01.160912.001 
+=====================
+  * fixed problem with "long" ET on bestmove and very short on TestMate
+  * this version is now the "BASE" version for all future updates

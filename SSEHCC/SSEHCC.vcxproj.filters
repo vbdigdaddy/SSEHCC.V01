@@ -94,10 +94,10 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="..\..\..\Chess Resources\ReadMe.txt">
+    <Text Include="..\Chess Resources\History.txt">
       <Filter>Resource Files</Filter>
     </Text>
-    <Text Include="..\..\..\Chess Resources\History.txt">
+    <Text Include="..\Chess Resources\ReadMe.txt">
       <Filter>Resource Files</Filter>
     </Text>
   </ItemGroup>
@@ -107,25 +107,28 @@
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\..\..\Chess Resources\evaltests.epd">
-      <Filter>Resource Files</Filter>
-    </None>
-    <None Include="..\..\..\Chess Resources\lct2.epd">
-      <Filter>Resource Files</Filter>
-    </None>
-    <None Include="..\..\..\Chess Resources\performance.bin">
-      <Filter>Resource Files</Filter>
-    </None>
-    <None Include="..\..\..\Chess Resources\perftsuite.epd">
-      <Filter>Resource Files</Filter>
-    </None>
-    <None Include="..\..\..\Chess Resources\ToMoveAndWin.epd">
-      <Filter>Resource Files</Filter>
-    </None>
     <None Include="data1.bin">
       <Filter>Resource Files</Filter>
     </None>
-    <None Include="..\..\..\Chess Resources\EPD Tests\matein.epd">
+    <None Include="..\Chess Resources\BoardRepresentation.xlsx">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\Chess Resources\performance.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\Chess Resources\EPD Tests\evaltests.epd">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\Chess Resources\EPD Tests\lct2.epd">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\Chess Resources\EPD Tests\matein.epd">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\Chess Resources\EPD Tests\perftsuite.epd">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\Chess Resources\EPD Tests\ToMoveAndWin.epd">
       <Filter>Resource Files</Filter>
     </None>
   </ItemGroup>

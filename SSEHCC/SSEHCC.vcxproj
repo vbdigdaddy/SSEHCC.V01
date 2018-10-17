@@ -152,8 +152,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <Text Include="..\..\..\Chess Resources\History.txt" />
-    <Text Include="..\..\..\Chess Resources\ReadMe.txt" />
+    <Text Include="..\Chess Resources\History.txt" />
+    <Text Include="..\Chess Resources\ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="C_BB_64.h" />
@@ -193,12 +193,13 @@
     <ResourceCompile Include="SSEHCC.rc" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\..\..\Chess Resources\EPD Tests\matein.epd" />
-    <None Include="..\..\..\Chess Resources\evaltests.epd" />
-    <None Include="..\..\..\Chess Resources\lct2.epd" />
-    <None Include="..\..\..\Chess Resources\performance.bin" />
-    <None Include="..\..\..\Chess Resources\perftsuite.epd" />
-    <None Include="..\..\..\Chess Resources\ToMoveAndWin.epd" />
+    <None Include="..\Chess Resources\BoardRepresentation.xlsx" />
+    <None Include="..\Chess Resources\EPD Tests\evaltests.epd" />
+    <None Include="..\Chess Resources\EPD Tests\lct2.epd" />
+    <None Include="..\Chess Resources\EPD Tests\matein.epd" />
+    <None Include="..\Chess Resources\EPD Tests\perftsuite.epd" />
+    <None Include="..\Chess Resources\EPD Tests\ToMoveAndWin.epd" />
+    <None Include="..\Chess Resources\performance.bin" />
     <None Include="data1.bin" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
